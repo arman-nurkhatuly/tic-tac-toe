@@ -10,7 +10,7 @@ let playerWon = false;
 const winCases = [
     [0, 1, 2],
     [3, 4, 5],
-    [5, 7, 8],
+    [6, 7, 8],
     [0, 3, 6],
     [1, 4, 7],
     [2, 5, 8],
@@ -93,7 +93,7 @@ resetBtn.onclick = function () {
         isGameActive = true
         currentPlayer = 'X'
         displayPlayer.innerHTML = 'X'
-        if(playerWon){
+        if (playerWon) {
             playerWon = false
         }
     }
